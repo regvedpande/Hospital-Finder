@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Finder</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+  <link rel="stylesheet" href="hospitalstyle.css"> 
+  <style>
+    /* Loader styles */
+    .loader {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0 auto;
+      border: 7px solid #007bff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border-right-color: transparent;
+      animation: anim 1.5s linear infinite;
+    }
+
+    @keyframes anim {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="search-box">
+    <input type="text" id="city" class="input-field" placeholder="Enter city (e.g., Mumbai)">
+    <input type="text" id="area" class="input-field" placeholder="Enter area (e.g., Bandra)">
+    <button onclick="findHospitals()" class="search-btn">Search</button>
+  </div>
+
+  <div id="map-container"></div>
+
+  <div class="loading">
+    <!-- Insert the loader animation here -->
+    <div class="loader"></div>
+  </div>
+
+</body>
+</html>
