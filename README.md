@@ -38,8 +38,4 @@ No installation is required to use this application. Simply clone the repository
 
 ## License
 
-<<<<<<< HEAD
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-=======
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
->>>>>>> 6a1e76d8cce5efa57020513f1ed0998934269622
