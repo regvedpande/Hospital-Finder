@@ -21,7 +21,7 @@ This project is a Hospital Finder web application that allows users to search fo
 ## Usage
 
 To use the application:
-1. Open `index.html` in your web browser.
+1. Open `hospitalstructure.html` in your web browser.
 2. Enter the desired city and area in the input fields.
 3. Click on the "Search" button.
 4. Hospitals within the specified area will be displayed on the map and listed below it.
